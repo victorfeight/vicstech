@@ -1,0 +1,111 @@
+.show-modal {
+	overflow: hidden;
+	position: relative;
+}
+
+.show-modal:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.show-modal .modal {
+	display: block;
+}
+
+.constrain {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	box-sizing: border-box;
+        line-height: 1.8;
+        font-weight: 400;
+        h3 {
+          font-family: "Lato", Helvetica, Arial, sans-serif;
+          line-height: 1.5;
+          font-size: 18px * 1.3;
+          font-weight: 500;
+          margin: 0;
+        }
+}
+
+.form {
+	position: relative;
+	margin-top: 1em;
+}
+
+.form--loading:before {
+	content: '';
+}
+
+.form--loading .form__spinner {
+	display: block;
+}
+
+.form:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 10;
+}
+
+.form__spinner {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 11;
+}
+
+.comment {
+	width: 100%;
+	margin: 20px auto;
+	min-height: 0;
+}
+
+.comment__description {
+	margin-top: 1em;
+}
+
+.field-group {
+	display: block;
+        border: 1px solid #c0c0c0;
+        margin: 0 2px;
+        padding: 0.35em 0.625em 0.75em;
+}
+
+.mdl-textfield__input {
+    resize: both;
+}
+
+.mdl-card__supporting-text {
+	padding-top: 20px;
+        font-family: "Lato", Helvetica, Arial, sans-serif;
+        p {
+          font-size: 1.4em;
+          line-height: 1.8;
+        }
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	min-height: 0;
+	z-index: 9999;
+}

@@ -1,0 +1,22 @@
+machine:
+  environment:
+    USER_NAME: victorfeight
+    USER_EMAIL: vrfeight@gmail.com
+  ruby:
+    version: 2.4.1
+
+dependencies:
+  pre:
+    - bash ./bin/setup
+
+test:
+  post:
+    - bundle exec jekyll build
+    - rm -R ./_site/node_modules
+    - bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml"
+
+deployment:
+   production:
+      branch: chalk_dev
+      commands:
+      - bash ./bin/deploy

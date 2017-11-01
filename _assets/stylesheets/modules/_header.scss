@@ -1,0 +1,123 @@
+// =============================================================================
+// Header
+// =============================================================================
+
+.header-nav {
+  position: relative;
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+  display: block;
+  border-bottom: 1px solid $base-border-color;
+  margin: 0 -9999rem;
+  /* add back section padding value */
+  padding: 10px 9999rem;
+  background: $banner-color;
+  line-height: 1.8;
+}
+
+.header-logo {
+  display: inline-block;
+  position: relative;
+  height: 103px;
+  width: 103px;
+}
+
+.header-logo img {
+    position: absolute;
+    left: 140px;
+    top: 8px;
+} 
+
+.header-banner {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  width: 225px;
+}
+
+.header-banner img {
+    position: absolute;
+    right: 258px;
+    bottom: 50px;
+} 
+
+.header-links {
+  float: left;
+  padding: 0;
+  margin: 60px 0 0; 
+  list-style: none;
+  line-height: 1.8;
+  font-size: 18px;
+  li {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    &:first-child {
+      margin-left: 0;
+    }
+    a {
+      font-size: 22px;
+      color: $header-link-color;
+      &:hover {
+        color: $header-link-color-hover;
+      }
+    }
+  }
+}
+
+@include breakpoint(small) {
+  .header-nav {
+    text-align: center;
+  }
+  .header-banner img {
+    display: none;
+  } 
+  .header-logo img {
+    height: 90%;
+    width: auto;
+    left: -90%;
+  } 
+  .header-links {
+    display: block;
+    float: none;
+    margin: 10px 0 0; 
+    text-align: center;
+    li {
+      margin: 0 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@include breakpoint(extra-small) {
+  .header-nav {
+    text-align: center;
+  }
+  .header-banner {
+    display: none;
+  }
+  .header-logo img {
+    height: 90%;
+    width: auto;
+    left: 15%;
+    top: 15%;
+  } 
+  .header-links {
+    display: block;
+    float: none;
+    margin: 10px 0 0; 
+    text-align: top;
+    li {
+      margin: 0 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    a {
+      font-size: 22px;
+      }
+  }
+}
+
+

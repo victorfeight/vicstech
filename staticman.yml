@@ -1,0 +1,9 @@
+comments:
+ allowedFields: ['name', 'email', 'message']
+ branch: "chalk_dev"
+ commitMessage: "New comment."
+ filename: "comment-{@timestamp}"
+ format: "yaml"
+ moderation: true
+ path: "_data/comments/{options.slug}"
+ requiredFields: ['name', 'message']
