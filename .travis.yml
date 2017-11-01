@@ -1,0 +1,26 @@
+# Travis CI config
+
+language: ruby
+rvm:
+- 2.4.1
+
+# install jekyll from gemfile
+install: 
+   - bundle install
+   - rake
+   - npm install -g yarn
+   - chmod +x ./scripts/build.sh
+   - ./scripts/build.sh
+
+# build site
+scripts: true
+
+# deploy to netlify
+after_success: 
+   - chmod +x ./scripts/deploy.sh
+   - ./scripts/deploy.sh
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master
