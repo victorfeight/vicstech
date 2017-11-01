@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "VicsTech Repair Services"
+title: "VicsTech Services"
 description: "Bay Area Tech Repair Services"
 ---
 
