@@ -1,6 +1,6 @@
 comments:
  allowedFields: ['name', 'email', 'message']
- branch: "chalk_dev"
+ branch: "master"
  commitMessage: "New comment."
  filename: "comment-{@timestamp}"
  format: "yaml"
