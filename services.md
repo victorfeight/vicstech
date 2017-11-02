@@ -15,7 +15,7 @@ description: "Bay Area Tech Repair Services"
 * Check Hard Drive health
 * Driver Installation / Update / Repair
 * Clean / Compact the registry
-* Remove Bloatware
+* Remove Bloatware / Potentially Unwanted Programs (PUPs)
 
 <br />
 
