@@ -12,7 +12,7 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        showModal('Comment submitted', 'Thanks for your comment. It will show on the site within a few minutes.');
+        showModal('Comment submitted', 'Thanks for your comment. It will show on the site once it has been approved.');
         $(form).removeClass('form--loading');
       },
       error: function (err) {
