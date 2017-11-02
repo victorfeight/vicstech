@@ -11,7 +11,7 @@ description: "Bay Area Tech Repair Services"
 * Clean Dust out of computer fans and motherboard
 * Apply thermal paste to the CPU
 * Check RAM Usage / CPU Usage / Temperatures
-* Defragment disk
+* Defragment Hard Drive
 * Check Hard Drive health
 * Driver Installation / Update / Repair
 * Clean / Compact the registry
