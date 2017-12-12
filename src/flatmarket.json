@@ -1,0 +1,225 @@
+{
+  "info": {
+    "description": "VicsTech Service Payment Portal",
+    "name": "Thank You For Choosing VicsTech"
+  },
+  "products": {
+    "001": {
+      "amount": 6000,
+      "description": "Remove Bloat / Tune-Up",
+      "images": [
+        "images/tuneup.png"
+      ],
+      "name": "PC / Laptop Tune-Up"
+    },
+    "002": {
+      "amount": 6000,
+      "description": "Vista, 7, 8, 8.1, 10",
+      "images": [
+        "images/windows.png"
+      ],
+      "name": "Windows Upgrade or Reinstall"
+    },
+    "003": {
+      "amount": 3000,
+      "description": "Upgrade RAM",
+      "images": [
+        "images/ram.png"
+      ],
+      "name": "RAM Upgrade"
+    },
+    "004": {
+      "amount": 6000,
+      "description": "Upgrade Graphics Card",
+      "images": [
+        "images/gpu.png"
+      ],
+      "name": "GPU Upgrade"
+    },
+    "005": {
+      "amount": 6000,
+      "description": "Upgrade Fan / Cooling System",
+      "images": [
+        "images/fan.png"
+      ],
+      "name": "Fan Upgrade"
+    },
+    "006": {
+      "amount": 6000,
+      "description": "Upgrade and Format Harddrive",
+      "images": [
+        "images/harddrive.png"
+      ],
+      "name": "Harddrive Replacement / Format"
+    },
+    "007": {
+      "amount": 6000,
+      "description": "Upgrade / Install new CD/DVD Drive",
+      "images": [
+        "images/optical.png"
+      ],
+      "name": "Optical Drive Replacement"
+    },
+    "008": {
+      "amount": 7500,
+      "description": "Upgrade Power Supply",
+      "images": [
+        "images/psu.png"
+      ],
+      "name": "Desktop Power Supply Replacement"
+    },
+    "009": {
+      "amount": 7500,
+      "description": "Replace Laptop Screen",
+      "images": [
+        "images/laptopscreen.png"
+      ],
+      "name": "Laptop Screen Replacement"
+    },
+    "010": {
+      "amount": 7500,
+      "description": "Upgrade / Replace Processor",
+      "images": [
+        "images/processor.png"
+      ],
+      "name": "Desktop Processor Replacement"
+    },
+    "011": {
+      "amount": 10000,
+      "description": "Repair Laptop DC Jack",
+      "images": [
+        "images/dcjack.png"
+      ],
+      "name": "DC Jack Repair"
+    },
+    "012": {
+      "amount": 13000,
+      "description": "Upgrade / Replace Motherboard",
+      "images": [
+        "images/mobo.png"
+      ],
+      "name": "Motherboard Replacement / Upgrade"
+    },
+    "013": {
+      "amount": 15000,
+      "description": "Successfully Recover Data",
+      "images": [
+        "images/datarecovery.png"
+      ],
+      "name": "Successful Data Recovery"
+    },
+    "014": {
+      "amount": 4000,
+      "description": "DVD Backup",
+      "images": [
+        "images/dvd.png"
+      ],
+      "name": "Full Image Backup to DVD"
+    },
+    "015": {
+      "amount": 6000,
+      "description": "USB Backup",
+      "images": [
+        "images/usb.png"
+      ],
+      "name": "Full Image Backup to USB"
+    },
+    "016": {
+      "amount": 3000,
+      "description": "Backup Multimedia and Documents (DVD)",
+      "images": [
+        "images/dvdbackup.png"
+      ],
+      "name": "Copy music / videos / documents / pictures only to DVD"
+    },
+    "017": {
+      "amount": 5000,
+      "description": "Backup Multimedia and Documents (USB)",
+      "images": [
+        "images/usbbackup.png"
+      ],
+      "name": "Copy music / videos / documents / pictures only to USB"
+    },
+    "018": {
+      "amount": 20000,
+      "description": "Successful Backup and Tune-Up with Recovery DVD",
+      "images": [
+        "images/recoverydvd.png"
+      ],
+      "name": "PC Tune-Up + Successful Data Recovery + Full-Image to DVD"
+    },
+    "019": {
+      "amount": 22000,
+      "description": "Successful Backup and Tune-Up with Recovery USB",
+      "images": [
+        "images/recoveryusb.png"
+      ],
+      "name": "PC Tune-Up + Successful Data Recovery + Full-Image to USB"
+    },
+    "020": {
+      "amount": 10000,
+      "description": "Remove All Viruses and Malware",
+      "images": [
+        "images/virusremoval.png"
+      ],
+      "name": "Virus / Anti-Malware Removal"
+    },
+    "021": {
+      "amount": 16000,
+      "description": "Successful Virus Removal, Tune-Up, Recovery DVD",
+      "images": [
+        "images/tuneup_virus.png"
+      ],
+      "name": "PC Tune-Up + Virus/Anti-Malware Removal + Full-Image to DVD"
+    },
+    "022": {
+      "amount": 18000,
+      "description": "Successful Virus Removal, Tune-Up, Recovery USB",
+      "images": [
+        "images/usb_virus.png"
+      ],
+      "name": "PC Tune-Up + Virus/Anti-Malware Removal + Full-Image to USB"
+    },
+    "023": {
+      "amount": 12000,
+      "description": "Replace cracked or defective iPhone screen",
+      "images": [
+        "images/broken_phone.png"
+      ],
+      "name": "iPhone Screen Replacement"
+    },
+    "024": {
+      "amount": 8000,
+      "description": "Install and Configure PC",
+      "images": [
+        "images/desktop_setup.png"
+      ],
+      "name": "Home Computer Setup"
+    },
+    "025": {
+      "amount": 8000,
+      "description": "Install and Configure Home Internet",
+      "images": [
+        "images/internet_setup.png"
+      ],
+      "name": "Home Internet Setup"
+    },
+    "026": {
+      "amount": 13000,
+      "description": "Install and Configure PC and Internet",
+      "images": [
+        "images/pc_internet_setup.png"
+      ],
+      "name": "Home Internet + Computer Setup"
+    }
+  },
+  "server": {
+    "host": "6qq8e2dyh9.execute-api.us-east-1.amazonaws.com",
+    "pathname": "/flatmarket/"
+  },
+  "stripe": {
+    "allowRememberMe": false,
+    "panelLabel": "Buy now {{amount}}",
+    "publishableKey": "pk_test_U3D2c6KZqp7LOiMTzAFBenUe"
+  }
+}
