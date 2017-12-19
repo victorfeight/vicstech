@@ -189,6 +189,14 @@
       "name": "iPhone Screen Replacement"
     },
     "024": {
+      "amount": 15000,
+      "description": "Diagnose and Repair a Video Game Console",
+      "images": [
+        "images/vg_repair.png"
+      ],
+      "name": "Video Game Console Repair"
+    },
+    "025": {
       "amount": 8000,
       "description": "Install and Configure PC",
       "images": [
@@ -196,7 +204,7 @@
       ],
       "name": "Home Computer Setup"
     },
-    "025": {
+    "026": {
       "amount": 8000,
       "description": "Install and Configure Home Internet",
       "images": [
@@ -204,7 +212,7 @@
       ],
       "name": "Home Internet Setup"
     },
-    "026": {
+    "027": {
       "amount": 13000,
       "description": "Install and Configure PC and Internet",
       "images": [
