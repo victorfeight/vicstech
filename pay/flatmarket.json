@@ -222,7 +222,7 @@
     }
   },
   "server": {
-    "host": "6qq8e2dyh9.execute-api.us-east-1.amazonaws.com",
+    "host": "vicstech-payment.herokuapp.com",
     "pathname": "/flatmarket/"
   },
   "stripe": {
