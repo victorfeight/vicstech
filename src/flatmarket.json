@@ -222,8 +222,8 @@
     }
   },
   "server": {
-    "host": "6qq8e2dyh9.execute-api.us-east-1.amazonaws.com",
-    "pathname": "/flatmarket/"
+    "host": "https://vicstech-payment.herokuapp.com/",
+    "pathname": "/pay/"
   },
   "stripe": {
     "allowRememberMe": false,
