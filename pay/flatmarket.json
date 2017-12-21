@@ -228,6 +228,6 @@
   "stripe": {
     "allowRememberMe": false,
     "panelLabel": "Buy now {{amount}}",
-    "publishableKey": "pk_test_U3D2c6KZqp7LOiMTzAFBenUe"
+    "publishableKey": "pk_test_ZeKX5w1ul6h2QMUiFEofbXmx"
   }
 }
