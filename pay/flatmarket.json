@@ -222,7 +222,8 @@
     }
   },
   "server": {
-    "host": "vicstech-payment.herokuapp.com"
+    "host": "vicstech-payment.herokuapp.com",
+    "path": "/pay/"
   },
   "stripe": {
     "allowRememberMe": false,
