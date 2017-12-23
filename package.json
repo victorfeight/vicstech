@@ -1,7 +1,6 @@
 {
   "name": "chalk",
   "dependencies": {
-    "flatmarket-cli": "^3.0.1",
     "fluidbox": "^2.0.5",
     "jquery": "^3.2.1",
     "retinajs": "^2.1.1",

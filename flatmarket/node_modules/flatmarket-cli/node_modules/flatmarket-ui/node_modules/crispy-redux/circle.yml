@@ -1,0 +1,7 @@
+test:
+  override:
+    - npm run style
+    - npm run test
+  post:
+    - npm run coverage
+    - ./node_modules/.bin/codecov --file=./coverage/json/coverage-final.json
