@@ -12,6 +12,9 @@ install:
    - chmod +x ./scripts/build.sh
    - ./scripts/build.sh
 
+env:
+   - TRAVIS_NODE_VERSION="4"
+
 # build site
 scripts: true
 
