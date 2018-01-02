@@ -9,7 +9,6 @@ Thumbs.db
 /_assets/yarn/
 /_site/
 /node_modules/
-/store-frontend/node_modules/
 /flatmarket/
 /.asset-cache/
 /.sass-cache/

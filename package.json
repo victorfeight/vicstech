@@ -1,14 +1,11 @@
 {
   "name": "chalk",
   "dependencies": {
-    "fluidbox": "^2.0.5",
     "jquery": "^3.2.1",
-    "retinajs": "^2.1.1",
     "throttle-debounce-fn": "^1.0.1",
-    "webfontloader": "^1.6.28"
-  },
-  "devDependencies": {
-    "extract-text-webpack-plugin": "^2.0.0-beta.4",
-    "webpack": "^1.11.0"
+    "fluidbox": "^2.0.5",
+    "retinajs": "^2.1.1",
+    "webfontloader": "^1.6.28",
+    "svgxuse": "^1.2.4"
   }
 }

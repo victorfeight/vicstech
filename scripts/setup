@@ -13,4 +13,4 @@ bundle update
 
 # Set up JS dependencies via Yarn.
 npm install -g yarn
-yarn install --modules-folder ./_assets/yarn
+yarn install --ignore-engines --modules-folder ./_assets/yarn
