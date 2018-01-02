@@ -11,4 +11,4 @@ tags: [design, jekyll]
 
 Decided to make a blog on my website, I plan to keep this primarily tech/compsci related, but look for other shenanigans. I have many interests. I may write a tutorial on e-commerce soon. Stay posted.
 
-Testing a small update through Travis-CI.
+Testing a small update through Travis-CI... ;)
