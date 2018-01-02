@@ -222,7 +222,7 @@
     }
   },
   "server": {
-    "host": "cryptic-headland-94862.herokuapp.com/vicstech-payment.herokuapp.com"
+    "host": "vicstech-payment.herokuapp.com"
   },
   "stripe": {
     "allowRememberMe": false,
