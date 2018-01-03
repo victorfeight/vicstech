@@ -65,6 +65,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+include:
+  - _headers
 paginate_path: /blog/page:num/
 permalink: /blog/:slug
 sass:
